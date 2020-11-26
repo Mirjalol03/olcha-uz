@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",Arial,"Segoe UI",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    padding: 0; 
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+/* .float-left-navbar {
+    float: left;
+} */
+.float-left-navbar ul li {
+    display: inline-block;
+}
+.rang-left {
+    color: rgb(207, 0, 35);
+}
+.float-left-navbar ul li a {
+    text-decoration: none;
+    /* color: #444; */
+}
+.float-left-navbar {
+    position: relative;
+    left: -40px;
+    
+}
+.rang-left2 {
+    color: #444;
+    border-left: 1px solid #999;    
+    padding-left: 7px;
+    margin-left: 4px;
+}
+.nav-info ul li {
+    position: relative;
+    bottom: 40px;
+    margin-left: 10px;
+    list-style: none;
+    display: inline-block;
+}
+.nav-info{
+    text-align: right;
+}
+.nav-info ul li a {
+    text-decoration: none;
+    color: #777;
+    transition: all 0.2s;
+}
+.nav-info ul li a:hover {
+    color: #333;
+}
+
+.left-section {
+    margin-top: -40px;
+    border-top: solid 1px #999;
+    padding-top: 20px;
+}
+.left-section * {
+    display: inline;
+}
+.left-section form input:nth-child(1) {
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    margin-left: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-right: none;
+    border: solid 1px #999;
+}
+.left-section img {
+    position: relative;
+    top: 5px;
+    height: 25px;
+    margin-right: 10px;
+}
+.left-section .section-a-1 {
+    color: #fff;
+    background-color: rgb(218, 31, 31);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.left-section .section-a-1 span {
+    margin-left: 10px;
+}
+.left-section form button {
+    background-color: rgb(218, 31, 31);
+    border: none;
+    color: #fff;
+    outline: none;
+    padding: 11px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: relative;
+    left: -5px;
+    cursor: pointer;
+}
+#text-right-2-section{
+    float: right;
+}
+#text-right-2-section a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+    transition: all 0.2s;
+    padding: 5px;
+}
+.rek-color1 {
+    background-color: #ffeba9;
+    box-sizing: border-box;
+    padding: 60px 60px 0;
+    width: 65%; 
+    height: 400px;
+}
+#text-right-2-section a:hover {
+    color: rgb(218, 31, 31);
+    background-color: #ddd;
+}
+.rek-color1 {
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.rek-color1 .text-rek {
+    float: right;
+    position: relative;
+    top: -160px;
+}
+.rek-color1 .text-rek span {
+    display: block;
+}
+.smartfonlar {
+    font-size: 30px;
+    font-weight: 777;
+}
+.sotib-ol {
+    padding: 10px;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    color: #222;
+    position: relative;
+    top: 30px;
+    margin-left: 0;
+    border: solid 1px #000;
+    transition: all 0.4s;
+}
+.sotib-ol:hover {
+    color: #fff;
+    background-color: #444
+}
+.rek-color1, .rek-color-2 {
+    display: inline-block;
+}
+.rek-color-2 {
+    width: 15%;
+    margin-left: 20px;
+    padding: 65px;
+    background-color: rgb(80, 15, 165);
+    border-radius: 6px;
+    position: relative;
+    top: -5px;
+    padding-top: 25px;
+    padding-bottom: 115px;
+}
+.rek-color-2 img {
+    height: 180px;
+    position: relative;
+    right: 50px;
+}
+.rek-color-2 span {
+    display: block;
+}
+.span1 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.span2 {
+    color: #fff;
+    text-align: center;
+}
+@media only screen and (max-width: 880px) {
+    .nav-info{
+        display: none;
+    }
+    .float-left-navbar ul li {
+        font-size: 13.4px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 710px) {
+    .left-section img {
+        display: block;
+        margin-bottom: 20px;
+    }
+    #text-right-2-section {
+        position: relative;
+        right: 60px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    #text-right-2-section {
+        display: none;
+    }
+    .left-section .section-a-1 span{
+        display: none;
+    }
+    .left-section .section-a-1 {
+        position: relative;
+        top: -40px;
+        right: 10px;
+        float: right;
+        padding: 5px 10px;
+    }
+}
+@media only screen and (max-width: 477px) {
+    .left-section form input:nth-child(1) {
+        width: 70%;
+        padding: 6px;
+    }
+    .left-section form button  {
+        padding: 7px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .left-section form input:nth-child(1) {
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 1340px) {
+    .rek-color1 .text-rek {
+       position: relative;
+       top: 0;
+       float: left;
+    }
+    .rek-color1 {
+        padding: 0;
+        margin-top: 10px;
+        top: -30px;
+        position: relative;
+    }
+    .rek-color-2 {
+        top: 22px;
+    }
+
+}
+@media only screen and (max-width: 859px) {
+    .rek-color1 {
+        top: 0;
+    }
+    .rek-color1 {
+        width: 90%;
+        display: block;
+        margin-top: 50px;
+    }
+    .img-rek img{
+        height: 200px;
+        margin-left: 40px;
+    }
+    .text-rek {
+        margin-left: 100px;
+    }
+    
+
+
+    /* 2-code */
+    .rek-color-2 {
+        width: 60%;
+        margin-left: 0;
+        left: 10px;
+    }
+}
+@media only screen and (max-width: 630px) {
+    .img-rek img{
+        height: 180px;
+        margin-left: 80px;
+    }
+    
+    .text-rek {
+        margin-left: 160px;
+    }
+}
+@media only screen and (max-width: 552px) {
+    .img-rek img {
+        height: 130px;
+        margin-top: 30px;
+    }
+    .text-rek {
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .img-rek img {
+        height: 120px;
+        margin-left: 40px;
+    }
+    .text-rek {
+        margin-left: 55px;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 405px) {
+    .img-rek img {
+        height: 103px;
+        margin-left: 30px;
+    }
+    .rek-color1 {
+        width: 99%;
+    }
+    .container {
+            max-width: 95%;
+            margin: auto;
+    }
+}
+@media only screen and (max-width: 333px) {
+    .container {
+        width: auto;
+    }
+    
+}
